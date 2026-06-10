@@ -1,0 +1,3 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<!-- wp:pattern {"slug":"twentytwentyfour/banner-hero"} /--><!-- wp:pattern {"slug":"twentytwentyfour/text-feature-grid-3-col"} /--><!-- wp:pattern {"slug":"twentytwentyfour/text-alternating-images"} /--><!-- wp:pattern {"slug":"twentytwentyfour/testimonial-centered"} /--><!-- wp:pattern {"slug":"twentytwentyfour/posts-list"} /--><!-- wp:pattern {"slug":"twentytwentyfour/cta-subscribe-centered"} /-->
+<!-- Powered by Staatic (https://staatic.com/) -->

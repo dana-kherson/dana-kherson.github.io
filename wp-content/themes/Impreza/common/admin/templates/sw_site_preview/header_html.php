@@ -1,0 +1,3 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><header id="page-header" class="l-header pos_static shadow_thin bg_solid" itemscope itemtype="//schema.org/WPHeader"><div class="l-subheader at_middle"><div class="l-subheader-h"><div class="l-subheader-cell at_left"><div class="w-image ush_image_1"><a href="https://dana-kherson.org/" aria-label="Title" class="w-image-h"><img src=""></a></div></div></div></div></header></body></html>
+<!-- Powered by Staatic (https://staatic.com/) -->
