@@ -1,0 +1,1006 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-05-29 12:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Manual\n"
+
+#: 404.php:19
+msgid "Oops! That page can’t be found."
+msgstr ""
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: archive.php:31
+msgid "Oops! That page can’t be found."
+msgstr ""
+
+#: archive.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: archive.php:23
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: archive.php:34
+msgid "Nothing Found"
+msgstr ""
+
+#: archive.php:36
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: comments.php:18
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:13
+msgid "comments"
+msgstr ""
+
+#: comments.php:14
+msgid "comments"
+msgstr ""
+
+#: comments.php:14
+msgid "comments"
+msgstr ""
+
+#: comments.php:14
+msgid "comments"
+msgstr ""
+
+#: comments.php:14
+msgid "comments"
+msgstr ""
+
+#:
+
+#: footer.php:19
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: front-page.php:27
+msgid "firstgal"
+msgstr ""
+
+#: front-page.php:28
+msgid "secndgal"
+msgstr ""
+
+#: front-page.php:29
+msgid "thirdgal"
+msgstr ""
+
+#: front-page.php:30
+msgid "fourtgal"
+msgstr ""
+
+#: front-page.php:31
+msgid "fifthgal"
+msgstr ""
+
+#: functions.php:21
+msgid "elinalite"
+msgstr ""
+
+#: functions.php:25
+msgid "firstgal"
+msgstr ""
+
+#: functions.php:26
+msgid "secndgal"
+msgstr ""
+
+#: functions.php:27
+msgid "thirdgal"
+msgstr ""
+
+#: functions.php:28
+msgid "fourtgal"
+msgstr ""
+
+#: functions.php:29
+msgid "fifthgal"
+msgstr ""
+
+#: functions.php:34
+msgid "menu-1"
+msgstr ""
+
+#: functions.php:43
+msgid "dropdown-menu"
+msgstr ""
+
+#: functions.php:51
+msgid "menu-item-has-children"
+msgstr ""
+
+#: functions.php:67
+msgid "Primary"
+msgstr ""
+
+#: functions.php:85
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:86
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:96
+msgid "elinalite-style"
+msgstr ""
+
+#: functions.php:103
+msgid "elinalite-fontawesome"
+msgstr ""
+
+#: functions.php:104
+msgid "elinalite-brands.min"
+msgstr ""
+
+#: functions.php:105
+msgid "elinalite-solid.min"
+msgstr ""
+
+#: functions.php:106
+msgid "elinalite-lineicons.min"
+msgstr ""
+
+#: functions.php:107
+msgid "elinalite-bootstrap"
+msgstr ""
+
+#: functions.php:108
+msgid "elinalite-default-style"
+msgstr ""
+
+#: functions.php:109
+msgid "elinalite-flexslider"
+msgstr ""
+
+#: functions.php:110
+msgid "elinalite-fancybox"
+msgstr ""
+
+#: functions.php:111
+msgid "elinalite-animate"
+msgstr ""
+
+#: functions.php:112
+msgid "elinalite-owlcarousel"
+msgstr ""
+
+#: functions.php:113
+msgid "elinalite-wow"
+msgstr ""
+
+#: functions.php:114
+msgid "elinalite-playfair-display"
+msgstr ""
+
+#: functions.php:115
+msgid "elinalite-roboto"
+msgstr ""
+
+#: functions.php:116
+msgid "elinalite-titillium-web"
+msgstr ""
+
+#: functions.php:117
+msgid "elinalite-open-sans"
+msgstr ""
+
+#: functions.php:118
+msgid "elinalite-montserrat"
+msgstr ""
+
+#: functions.php:123
+msgid "elinalite-navigation"
+msgstr ""
+
+#: functions.php:124
+msgid "elinalite-owlcarousel"
+msgstr ""
+
+#: functions.php:125
+msgid "elinalite-flexslider"
+msgstr ""
+
+#: functions.php:126
+msgid "elinalite-fancybox.min"
+msgstr ""
+
+#: functions.php:127
+msgid "elinalite-isotope"
+msgstr ""
+
+#: functions.php:128
+msgid "elinalite-appear"
+msgstr ""
+
+#: functions.php:129
+msgid "elinalite-countTo"
+msgstr ""
+
+#: functions.php:130
+msgid "elinalite-waypoints"
+msgstr ""
+
+#: functions.php:131
+msgid "elinalite-bootstrap"
+msgstr ""
+
+#: functions.php:132
+msgid "elinalite-stellar"
+msgstr ""
+
+#: functions.php:133
+msgid "elinalite-wow"
+msgstr ""
+
+#: functions.php:134
+msgid "elinalite-onepage"
+msgstr ""
+
+#: functions.php:135
+msgid "elinalite-scripts"
+msgstr ""
+
+#: functions.php:136
+msgid "elinalite-fitvids"
+msgstr ""
+
+#: functions.php:153
+msgid "Custom_Walker_Nav_Menu.php"
+msgstr ""
+
+#: functions.php:158
+msgid "custom-header.php"
+msgstr ""
+
+#: functions.php:163
+msgid "template-tags.php"
+msgstr ""
+
+#: functions.php:168
+msgid "template-functions.php"
+msgstr ""
+
+#: functions.php:173
+msgid "customizer.php"
+msgstr ""
+
+#: functions.php:179
+msgid "inc/extras.php"
+msgstr ""
+
+#: functions.php:186
+msgid "inc/jetpack.php"
+msgstr ""
+
+#: header.php:29
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:47
+msgid "elina-lite-portfolio-gallery"
+msgstr ""
+
+#: header.php:48
+msgid "Toggle navigation"
+msgstr ""
+
+#: header.php:55
+msgid "icon-bar"
+msgstr ""
+
+#: header.php:58
+msgid "fas fa-bars"
+msgstr ""
+
+#: header.php:70
+msgid "primary-menu"
+msgstr ""
+
+#: header.php:78
+msgid "elinalite_social_top"
+msgstr ""
+
+#: index.php:14
+msgid "Blog Heading"
+msgstr ""
+
+#: index.php:31
+msgid "bottom-margin"
+msgstr ""
+
+#: index.php:34
+msgid "elina-lite-portfolio-gallery"
+msgstr ""
+
+#: index.php:36
+msgid "end row"
+msgstr ""
+
+#: index.php:37
+msgid "end container"
+msgstr ""
+
+#: index.php:39
+msgid "end blog"
+msgstr ""
+
+#: index.php:45
+msgid "bottom-margin"
+msgstr ""
+
+#: index.php:47
+msgid "bottom-margin"
+msgstr ""
+
+#: index.php:49
+msgid "bottom-margin"
+msgstr ""
+
+#: index.php:51
+msgid "bottom-margin"
+msgstr ""
+
+#: index.php:53
+msgid "bottom-margin"
+msgstr ""
+
+#: index.php:56
+ 
+ #: page.php:9
+msgid "primary"
+msgstr ""
+
+#: page.php:10
+msgid "section"
+msgstr ""
+
+#: page.php:11
+msgid "container"
+msgstr ""
+
+#: page.php:12
+msgid "row"
+msgstr ""
+
+#: page.php:13
+msgid "col-xl-9 col-lg-8"
+msgstr ""
+
+#: page.php:17
+msgid "comments_open"
+msgstr ""
+
+#: page.php:17
+msgid "get_comments_number"
+msgstr ""
+
+#: page.php:21
+msgid "end loop"
+msgstr ""
+
+#: page.php:24
+msgid "sidebar"
+msgstr ""
+
+#: page.php:25
+msgid "col-xl-3 col-lg-4"
+msgstr ""
+
+#: page.php:26
+msgid "end row"
+msgstr ""
+
+#: page.php:27
+msgid "end container"
+msgstr ""
+
+#: page.php:28
+msgid "end main"
+msgstr ""
+
+#: search.php:9
+msgid "primary"
+msgstr ""
+
+#: search.php:10
+msgid "blog"
+msgstr ""
+
+#: search.php:11
+msgid "container"
+msgstr ""
+
+#: search.php:12
+msgid "row"
+msgstr ""
+
+#: search.php:13
+msgid "col-xl-9 col-lg-8"
+msgstr ""
+
+#: search.php:17
+msgid "hr"
+msgstr ""
+
+#: search.php:19
+msgid "heading-title"
+msgstr ""
+
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:27
+msgid "bottom-margin"
+msgstr ""
+
+#: search.php:28
+msgid "end loop"
+msgstr ""
+
+#: search.php:31
+msgid "sidebar"
+msgstr ""
+
+#: search.php:32
+msgid "col-xl-3 col-lg-4"
+msgstr ""
+
+#: search.php:33
+msgid "end row"
+msgstr ""
+
+#: search.php:34
+msgid "end container"
+msgstr ""
+
+#: search.php:35
+msgid "end blog"
+msgstr ""
+
+#: sidebar.php:10
+msgid "secondary"
+msgstr ""
+
+#: sidebar.php:12
+msgid "sidebar-1"
+msgstr ""
+
+#: sidebar.php:13
+msgid "widget-area"
+msgstr ""
+
+#: sidebar.php:14
+msgid "sidebar-1"
+msgstr ""
+
+#: sidebar.php:15
+msgid "secondary"
+msgstr ""
+
+#: single.php:13
+msgid "primary"
+msgstr ""
+
+#: single.php:15
+msgid "blog"
+msgstr ""
+
+#: single.php:16
+msgid "container"
+msgstr ""
+
+#: single.php:17
+msgid "row"
+msgstr ""
+
+#: single.php:18
+msgid "col-xl-9 col-lg-8"
+msgstr ""
+
+#: single.php:23
+msgid "Previous:"
+msgstr ""
+
+#: single.php:23
+msgid "elina-lite-portfolio-gallery"
+msgstr ""
+
+#: single.php:23
+msgid "nav-title"
+msgstr ""
+
+#: single.php:23
+msgid "title"
+msgstr ""
+
+#: single.php:24
+msgid "Next:"
+msgstr ""
+
+#: single.php:24
+msgid "elina-lite-portfolio-gallery"
+msgstr ""
+
+#: single.php:24
+msgid "nav-title"
+msgstr ""
+
+#: single.php:24
+msgid "title"
+msgstr ""
+
+#: single.php:25
+msgid "bootom-border"
+msgstr ""
+
+#: single.php:27
+msgid "col-xl-3 col-lg-4"
+msgstr ""
+
+#: single.php:28
+msgid "sidebar"
+msgstr ""
+
+#: single.php:32
+msgid "end"
+msgstr ""
+
+#: single.php:33
+msgid "end"
+msgstr ""
+
+#: single.php:34
+msgid "end"
+msgstr ""
+
+#: template-parts/content-none.php:10
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? %1$s Get started here."
+msgstr ""
+
+#: template-parts/content-none.php:21
+msgid "elina-lite-portfolio-gallery"
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:28
+msgid "It seems we can’t find what you’re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-none.php:32
+msgid "search"
+msgstr ""
+
+#: template-parts/content-none.php:34
+msgid "search"
+msgstr ""
+
+#: template-parts/content-none.php:36
+msgid "no-results"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid "no-results"
+msgstr ""
+
+#: template-parts/content-none.php:39
+msgid "page-content"
+msgstr ""
+
+#: template-parts/content-none.php:40
+msgid "page-content"
+msgstr ""
+
+#: template-parts/content-page.php:12
+msgid "entry-title"
+msgstr ""
+
+#: template-parts/content-page.php:16
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-page.php:25
+msgid "elina-lite-portfolio-gallery"
+msgstr ""
+
+#: template-parts/content-page.php:26
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-page.php:27
+msgid "entry-content"
+msgstr ""
+
+#: template-parts/content-page.php:30
+msgid "end-blog details"
+msgstr ""
+
+#: template-parts/content-page.php:31
+msgid "end-single blog"
+msgstr ""
+
+#: template-parts/content-page.php:32
+msgid "end main content"
+msgstr ""
+
+#: template-parts/content-page.php:33
+msgid "post-hover-effect"
+msgstr ""
+
+#: template-parts/content-page.php:34
+msgid "single_img"
+msgstr ""
+
+#: template-parts/content-page.php:35
+msgid "bottom-margin"
+msgstr ""
+
+#: template-parts/content-page.php:36
+msgid "bootom-border"
+msgstr ""
+
+#: template-parts/content-page.php:39
+msgid "post_detail"
+msgstr ""
+
+#: template-parts/content-page.php:40
+msgid "single_blog"
+msgstr ""
+
+#: template-parts/content-page.php:41
+msgid "main_content text-center text-lg-left"
+msgstr ""
+
+#: template-parts/content-page.php:45
+msgid "post-"
+msgstr ""
+
+#: template-parts/content-page.php:46
+msgid "post_class"
+msgstr ""
+
+#: template-parts/content-page.php:47
+msgid "post-"
+msgstr ""
+
+#: template-parts/content-page.php:48
+msgid "clear"
+msgstr ""
+
+#: template-parts/content-search.php:11
+msgid "entry-title"
+msgstr ""
+
+#: template-parts/content-search.php:19
+msgid "post"
+msgstr ""
+
+#: template-parts/content-search.php:20
+msgid "entry-meta"
+msgstr ""
+
+#: template-parts/content-search.php:23
+msgid "entry-header"
+msgstr ""
+
+#: template-parts/content-search.php:25
+msgid "entry-summary"
+msgstr ""
+
+#: template-parts/content-search.php:30
+msgid "post-"
+msgstr ""
+
+#: template-parts/content-search.php:31
+msgid "post_class"
+msgstr ""
+
+#: template-parts/content-search.php:32
+msgid "post-"
+msgstr ""
+
+#: template-parts/content-search.php:33
+msgid "clear"
+msgstr ""
+
+#: template-parts/content-search.php:34
+msgid "bookmark"
+msgstr ""
+
+#: template-parts/content-search.php:35
+msgid "the_ID"
+msgstr ""
+
+#: template-parts/content-search.php:36
+msgid "post-"
+msgstr ""
+
+#: template-parts/content.php:11
+msgid "blog-heading"
+msgstr ""
+
+#: template-parts/content.php:19
+msgid "blog-text"
+msgstr ""
+
+#: template-parts/content.php:20
+msgid "entry-meta"
+msgstr ""
+
+#: template-parts/content.php:24
+msgid "thummbnaul"
+msgstr ""
+
+#: template-parts/content.php:32
+msgid "entry-content"
+msgstr ""
+
+#: template-parts/content.php:38
+msgid "Continue reading<span class="screen-reader-text"> "%s"</span>"
+msgstr ""
+
+#: template-parts/content.php:42
+msgid "page-links"
+msgstr ""
+
+#: template-parts/content.php:47
+msgid "clearfix"
+msgstr ""
+
+#: template-parts/content.php:48
+msgid "bootom-border"
+msgstr ""
+
+#: template-parts/content.php:49
+msgid "hr"
+msgstr ""
+
+#: template-parts/content.php:50
+msgid "the_ID"
+msgstr ""
+
+#: template-parts/content.php:51
+msgid "post-"
+msgstr ""
+
+#: inc/go/pro/class-customize.php:27
+msgid "Elina Lite"
+msgstr ""
+
+#: inc/go/pro/class-customize.php:28
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: inc/go/pro/class-customize.php:29
+msgid "https://pixelonetry.com/downloads/elina-creative-one-page-wordpress-theme/"
+msgstr ""
+
+#: inc/go/pro/section-pro.php:14
+msgid "Elina Lite"
+msgstr ""
+
+#: inc/go/pro/section-pro.php:15
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: inc/go-pro/customize-controls.js:1
+msgid "elinalite-customize-controls"
+msgstr ""
+
+#: inc/go-pro/customize-controls.css:1
+msgid "elinalite-customize-controls"
+msgstr ""
+
+#: inc/template-tags.php:10
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:16
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:21
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:26
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:33
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:50
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+# inc/template-functions.php
+#: template-functions.php:11
+msgid "hfeed"
+msgstr ""
+
+#: inc/template-functions.php:15
+msgid "no-sidebar"
+msgstr ""
+
+#: inc/template-functions.php:24
+msgid "<link rel=\"pingback\" href=\"%s\">"
+msgstr ""
+
+#: inc/multiplecheckbox.php:4
+msgid "customize-control-title"
+msgstr ""
+
+#: inc/multiplecheckbox.php:8
+msgid "customize-control-description"
+msgstr ""
+
+#: inc/multiplecheckbox.php:13
+msgid ""
+"<label>\n"
+"                <input type=\"checkbox\" \n"
+"                       value=\"%s\" \n"
+"                       %s \n"
+"                       %s />"
+msgstr ""
+
+#: inc/jetpack.php:16
+msgid "infinite-scroll"
+msgstr ""
+
+#: inc/jetpack.php:19
+msgid "main"
+msgstr ""
+
+#: inc/jetpack.php:20
+msgid "elinalite_infinite_scroll_render"
+msgstr ""
+
+#: inc/jetpack.php:21
+msgid "page"
+msgstr ""
+
+#: inc/jetpack.php:26
+msgid "jetpack-responsive-videos"
+msgstr ""
+
+#: inc/jetpack.php:30
+msgid "jetpack-content-options"
+msgstr ""
+
+#: inc/jetpack.php:34
+msgid "elinalite-style"
+msgstr ""
+
+#: inc/jetpack.php:35
+msgid "posted-on"
+msgstr ""
+
+#: inc/jetpack.php:36
+msgid "cat-links"
+msgstr ""
+
+#: inc/jetpack.php:37
+msgid "tags-links"
+msgstr ""
+
+#: inc/jetpack.php:38
+msgid "byline"
+msgstr ""
+
+#: inc/jetpack.php:39
+msgid "comments-link"
+msgstr ""
+
+#: inc/jetpack.php:44
+msgid "featured-images"
+msgstr ""
+
+#: inc/jetpack.php:45
+msgid "archive"
+msgstr ""
+
+#: inc/jetpack.php:46
+msgid "post"
+msgstr ""
+
+#: inc/jetpack.php:47
+msgid "page"
+msgstr ""
+
+# inc/extras.php
+#: inc/extras.php:6
+msgid "Header fancy box gallery"
+msgstr ""
+
+#: inc/extras.php:12
+msgid "elinalite_facebook"
+msgstr ""
+
+#: inc/extras.php:13
+msgid "elinalite_twitter"
+msgstr ""
+
+#: inc/extras.php:14
+msgid "elinalite_pinterest"
+msgstr ""
+
+#: inc/extras.php:15
+msgid "elinalite_linkedin"
+msgstr ""
+
+#: inc/extras.php:16
+msgid "elinalite_instagram"
+msgstr ""
+
+#: inc/extras.php:17
+msgid "elinalite_youtube"
+msgstr ""
+
+#: inc/extras.php:18
+msgid "elinalite_tiktok"
+msgstr ""
+
+#: inc/extras.php:21
+msgid "image"
+msgstr ""
+
+#: inc/extras.php:45
+msgid "elinalite_social"
+msgstr ""
+
+#: inc/extras.php:69
+msgid "facebook"
+msgstr ""
+
+#: inc/extras.php:70
+msgid "twitter"
+msgstr ""
+
+#: inc/extras.php:71
+msgid "pinterest"
+msgstr ""
+
+#: inc/extras.php:72
+msgid "linkedin"
+msgstr ""
+
+#: inc/extras.php:73
+msgid "instagram"
+msgstr ""
+
+#: inc/extras.php:74
+msgid "youtube"
+msgstr ""
+
+#: inc/extras.php:75
+msgid "tiktok"
+msgstr ""
+
+#: inc/extras.php:82
+msgid "ini-social-hover"
+msgstr ""

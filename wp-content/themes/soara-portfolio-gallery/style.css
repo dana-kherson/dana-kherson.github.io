@@ -1,0 +1,386 @@
+
+/*!
+Theme Name: Soara Portfolio Gallery
+Theme URI: https://pixelonetry.com/downloads/soara-portfolio-gallery-wordpress-theme/
+Author: pixelonetry
+Author URI: https://pixelonetry.com/
+Template: elina-lite-portfolio-gallery
+Description: Soara Portfolio Gallery Is creative Elegant portfolio gallery and Photography WordPress Theme for multipurpose and one page websites! Theme is very elegant and modern design suitable for agencies, photograpers, videograpers, models and etc. Soara Portfolio Gallery is compatibility support page builder plugins like elementor and else more! You can get free support in https://pixelonetry.freshdesk.com/support/tickets/new, Documentation: https://pixelonetry.com/docs/elina-lite/, View the demo of Elina Pro https://pixelonetry.com/previews/?theme=elina
+Version: 1.0.2
+Tested up to: 6.9
+Requires PHP: 5.6
+License: GNU General Public License v3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: soara-portfolio-gallery
+Tags: grid-layout, one-column, two-columns, three-columns, four-columns, right-sidebar, custom-background, custom-logo, custom-menu, featured-image-header, featured-images, sticky-post, threaded-comments, theme-options, translation-ready, blog, photography, portfolio, gallery
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+oara-portfolio-gallery is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+
+/* Import parent theme styles */
+@import url("https://dana-kherson.org/wp-content/themes/elina-lite-portfolio-gallery/style.css");
+
+/* Custom dark theme styles below */
+body {
+  background-color: #666!important;
+  color: #FFF!important;
+}
+p {
+  color: #ccc!important;
+}
+h3 {
+  color: #FFF!important;
+}
+h4 {
+  color: #FFF!important;
+}
+a:hover {
+  color: #fff!important;
+}
+.btn-contour-2:hover {
+  background-color: #222!important;
+}
+.heading-title {
+  letter-spacing: 0.2em!important;
+  color: #fff!important;
+}
+.skills-area .heading {
+  color: #fff!important;
+}
+.box-block .section-title {
+  color: #FFF!important;
+}
+.btn-outline {
+  color: rgba(255, 255, 255, 0.8)!important;
+  border: 2px solid rgba(255, 255, 255, 0.5)!important;
+}
+.btn-outline:hover {
+  color: #fff!important;
+  border: 2px solid rgba(255, 255, 255, 0.9)!important;
+}
+section {
+	background-color: #222!important;
+}
+.preloader-bg {
+  background: #17171D!important;
+}
+#preloader {
+  background: #17171D!important;
+}
+.loader {
+  border: 3px solid rgba(255, 255, 255, 0.15)!important;
+}
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1)!important;
+}
+
+.navbar .navbar-nav li a {
+  color: #fff!important;
+}
+
+.navbar .navbar-nav .dropdown-item {
+  color: #fff!important;
+}
+
+.light, .nav-scroll {
+  background: #17171D!important;
+  box-shadow: 0px 10px 30px rgba(208, 208, 241, 0.1)!important;
+}
+
+.light .icon-bar, .nav-scroll .icon-bar {
+  color: #fff!important;
+}
+
+.light .navbar-nav .nav-link, .nav-scroll .navbar-nav .nav-link {
+  color: #fff!important;
+}
+
+.light .navbar-nav .logo, .nav-scroll .navbar-nav .logo {
+  color: #fff!important;
+}
+
+.light .social-icon, .nav-scroll .social-icon {
+  border-left: 1px solid rgba(255, 255, 255, 0.1)!important;
+}
+
+.navbar .social-icon a {
+  color: #fff!important;
+}
+.navbar .search .icon {
+  color: #FFF!important;
+}
+.light .search, .nav-scroll .search {
+  color: #FFF!important;
+  border-left: 1px solid rgba(255, 255, 255, 0.1)!important;
+}
+
+.dropdown-menu {
+  background-color: #17171D!important;
+}
+.our-services .service-card {
+  -webkit-box-shadow: 0 0 15px #17171D!important;
+  box-shadow: 0 0 15px #17171D!important;
+  background-color: #131317!important;
+}
+.our-services .service-card .service-card-detail {
+  color: #ABABB6!important;
+}
+.our-services .service-card:hover {
+  -webkit-box-shadow: 0 0 35px #999!important;
+  box-shadow: 0 0 35px #999!important;
+}
+.pricing {
+  background-color: #131317!important;
+}
+.panel.pricing .table>thead>tr>th,
+.panel.pricing .table>tbody>tr>th,
+.panel.pricing .table>tfoot>tr>th,
+.panel.pricing .table>thead>tr>td,
+.panel.pricing .table>tbody>tr>td,
+.panel.pricing .table>tfoot>tr>td {
+  color: #fff!important;
+  line-height: 25px!important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1)!important;
+}
+.team-member-v2 .item {
+  -webkit-box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.05)!important;
+          box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.05)!important;
+}
+.team-member-v2 .info {
+  background-color: #131317!important;
+  color: #FFF!important;
+}
+.team-member-v2 .info p {
+  color: #ABABB6!important;
+}
+.form-v2 input, .form-v2 textarea {
+  background-color: #131317!important;
+}
+form input, form textarea {
+  color: #fff!important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3)!important;;
+}
+
+form textarea {
+  border: 1px solid rgba(255, 255, 255, 0.3)!important;
+}
+.info-block h4 {
+  color: #fff!important;
+}
+.info-block p {
+  color: #ccc!important;
+}
+.info-block p a {
+  color: #ccc!important;
+}
+.page-template-page_builder .wrraper {
+  background-color: #222!important;
+}
+.blog {
+  background-color: #222!important;
+  padding-top: 40px!important;
+}
+.blog .main_content .single_blog .post_detail .desc-text p {
+  color: #ccc!important;
+}
+.blog .writer-detail .post_navigation a {
+  background-color: #222!important;
+  border: solid 1px #fff!important;
+}
+.blog .writer-detail .post_navigation a i {
+  color: #fff!important;
+}
+.blog .writer-detail .post_navigation a:hover i {
+  color: #222!important;
+ }
+ .blog .main_content .single_blog .post_detail .blog-text a {
+  color: #ccc!important;
+}
+ .msg-heading span {
+   color: #fff!important;
+ }
+ .msg-heading span::before {
+  border-bottom: 1px solid #ccc!important;
+}
+.msg-heading span::after {
+  border-bottom: 1px solid #ccc!important;
+}
+.my-form input {
+  border-color: #ccc!important;
+  background-color: #131317!important;
+}
+.my-form input:hover, .my-form input:active, .my-form input:focus {
+  border-color: #ccc!important;
+  background-color: #131317!important;
+}
+.my-form input:hover, .my-form input:active, .my-form input:focus {
+  border-color: #ccc!important;
+  background-color: #131317!important;
+}
+.my-form textarea[placeholder] {  
+  color: #fff!important;
+  background-color: #131317!important;
+}
+.my-form textarea[placeholder]:hover, .my-form textarea[placeholder]:active, .my-form textarea[placeholder]:focus { 
+  border-color: #fff!important;
+}
+.blog .comment-form .my-form input[placeholder] {
+  color: #fff!important;
+}
+.blog h4 {
+  color: #FFF!important;
+}
+.widget {
+  background: transparent!important;
+}
+.wp-block-heading {
+  color: #FFF!important;
+}
+.wp-block-search__label {
+  color: #fff!important;
+}
+.sidebar .side_tags .search-bar {
+  background-color: #131317!important;
+}
+.widget_text {
+  background-color: #222!important;
+}
+.widget_text .textwidget {
+  color: #ccc!important;
+}
+.widget_categories {
+  background-color: #222!important;
+}
+.widget_categories ul li {
+  color: #f75443!important;
+  border-bottom: 1px solid #fff!important;
+}
+.widget_categories ul li a {
+  color: #fff!important;
+}
+.widget_recent_entries {
+  background-color: #222!important;
+  color: #ccc!important;
+}
+.widget_recent_entries ul li {
+  border-bottom: 1px solid #fff!important;
+}
+.widget_archive {
+  background-color: #222!important;
+  color: #ccc!important;
+}
+.widget_archive ul li {
+  border-bottom: 1px solid #fff!important;
+}
+.widget_archive ul li a {
+  color: #fff!important;
+}
+.widget_meta {
+  background-color: #222!important;
+}
+.widget_meta ul li {
+  border-bottom: 1px solid #fff!important;
+}
+.widget_meta ul li a {
+  color: #ccc!important;
+}
+.widget_recent_comments {
+  background-color: #222!important;
+  color: #ccc!important;
+}
+.widget_recent_comments ul li {
+  border-bottom: 1px solid #fff!important;
+}
+.widget_recent_comments ul li a {
+  color: #fff!important;
+}
+.widget_tag_cloud {
+  background-color: #222!important;
+  color: #ccc!important;
+}
+.tagcloud a {
+  border: solid 1px #ccc!important;
+  color: #ccc!important;
+}
+.tagcloud a:hover {
+  -webkit-box-shadow: 1px 1px 15px #666!important;
+  box-shadow: 1px 1px 15px #666!important;
+}
+.tags a {
+  border: solid 1px #fff!important;
+  color: #fff!important;
+}
+.tags a:hover {
+  color: #111!important;
+}
+.widget_recent_entries ul li a {
+  color: #fff!important;
+}
+.pagination .page-link {
+  color:#fff!important;
+  background-color: #222!important;
+}
+.pagination .page-item {
+  background-color: #222!important;
+}
+.pagination .page-link:hover {
+  background-color: #f75443!important;
+  color: #333!important;
+}
+.pagination .page-item.active .page-link {
+  background-color: #f75443!important;
+  border-color: #f75443!important;
+  color: #fff!important;
+}
+.sidebar .side_tags .search-bar form input[placeholder] {
+  background-color: transparent!important;
+}
+.pe-wp-default {
+  background-color: transparent!important;
+}
+.info-block .social a {
+  background: #131317!important;
+}
+.page-item.disabled .page-link {
+  background-color: transparent!important;
+}
+.footer {
+    background-color: #111!important;
+}
+ 
+#comments .comments-title {
+    color: #fff!important;
+}
+    .comment-list .comment-body .fn {
+        color: #fff!important;
+    }
+ .widget-title {
+    color: #FFF!important;
+ }
+
+.navbar-expand-lg .navbar-nav > .active > a,
+.navbar-expand-lg .navbar-nav > .active > a:focus,
+.navbar-expand-lg .navbar-nav > .active > a:hover,
+.navbar-expand-lg .navbar-nav li > a:hover {
+  color: #f75443!important;
+}
+.widget-area {
+    background-color: transparent!important;
+}
+.widget-area p a {
+    color: #FFF!important;
+}
+.comment-list .comment-body .fn a {
+    color: #ccc!important;
+}
+h3.test-logo {
+    color: #f75443!important;
+}
