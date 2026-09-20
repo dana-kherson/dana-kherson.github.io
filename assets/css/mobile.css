@@ -1,0 +1,337 @@
+/* Mobile refinements kept separate from the compiled template stylesheet. */
+.donate-cta {
+  padding: 56px 0;
+  color: #fff;
+  background: #17252f;
+}
+
+.donate-cta__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.donate-cta__content {
+  max-width: 760px;
+}
+
+.donate-cta h2 {
+  margin: 0 0 10px;
+  color: #fff;
+  font-size: clamp(26px, 3vw, 38px);
+  font-weight: 700;
+}
+
+.donate-cta p {
+  margin: 0;
+  color: rgba(255, 255, 255, .82);
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.donate-cta__button {
+  flex: 0 0 auto;
+  min-width: 150px;
+  padding: 14px 30px;
+  border: 2px solid #ff4a17;
+  border-radius: 4px;
+  color: #fff;
+  background: #ff4a17;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.donate-cta__button:hover,
+.donate-cta__button:focus-visible {
+  border-color: #fff;
+  color: #17252f;
+  background: #fff;
+}
+
+.donate-cta__button:focus-visible {
+  outline: 3px solid #ff4a17;
+  outline-offset: 4px;
+}
+
+@media (max-width: 1200px) {
+  .header .cta-btn {
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+
+  .header .navmenu {
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .donate-cta {
+    padding: 42px 0;
+  }
+
+  .donate-cta__inner {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .donate-cta p {
+    font-size: 16px;
+  }
+
+  .donate-cta__button {
+    width: 100%;
+  }
+
+  .header .logo h1 {
+    font-size: 24px;
+  }
+
+  .header .cta-btn {
+    margin-right: 8px;
+    padding: 6px 10px;
+    font-size: 11px;
+  }
+
+  .mobile-nav-toggle {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 420px) {
+  .dana-gallery-content .gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+}
+
+
+/* Donation page */
+.donate-page {
+  background: #f5f7f9;
+}
+
+.donate-page__intro {
+  max-width: 760px;
+  margin: 0 auto 42px;
+  text-align: center;
+}
+
+.donate-page__eyebrow,
+.donation-card__label {
+  color: #ff4a17;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.donate-page__intro h2 {
+  margin: 10px 0 16px;
+  font-size: clamp(32px, 4vw, 48px);
+  font-weight: 700;
+}
+
+.donate-page__intro p {
+  margin: 0;
+  color: #66727c;
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+.donation-featured {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 30px;
+  align-items: center;
+  max-width: 980px;
+  margin: 0 auto 30px;
+  padding: 38px;
+  border-radius: 18px;
+  color: #fff;
+  background: linear-gradient(135deg, #111820 0%, #263d4c 100%);
+  box-shadow: 0 22px 55px rgba(23, 37, 47, .2);
+}
+
+.donation-featured__icon,
+.donation-card__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 18px;
+  font-size: 32px;
+}
+
+.donation-featured__icon {
+  color: #fff;
+  background: #ff4a17;
+}
+
+.donation-featured h3 {
+  margin: 7px 0 10px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.donation-featured p {
+  max-width: 680px;
+  margin: 0 0 20px;
+  color: rgba(255, 255, 255, .78);
+  line-height: 1.65;
+}
+
+.donation-copy-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  width: min(100%, 560px);
+  padding: 10px 10px 10px 18px;
+  border: 1px solid rgba(255, 255, 255, .18);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, .08);
+}
+
+.donation-copy-row code {
+  overflow-wrap: anywhere;
+  color: inherit;
+  font-family: var(--default-font);
+  font-size: clamp(16px, 2.4vw, 22px);
+  font-weight: 700;
+  letter-spacing: .05em;
+}
+
+.donation-copy {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  flex: 0 0 auto;
+  padding: 9px 13px;
+  border: 0;
+  border-radius: 7px;
+  color: #fff;
+  background: #ff4a17;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .25s ease;
+}
+
+.donation-copy:hover,
+.donation-copy:focus-visible {
+  color: #17252f;
+  background: #fff;
+}
+
+.donation-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.donation-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 32px;
+  border: 1px solid #dde3e7;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 12px 34px rgba(39, 61, 78, .07);
+}
+
+.donation-card__icon {
+  width: 58px;
+  height: 58px;
+  margin-bottom: 24px;
+  border-radius: 14px;
+  color: #fff;
+  font-size: 26px;
+}
+
+.donation-card__icon--paypal { background: #003087; }
+.donation-card__icon--patreon { background: #ff424d; }
+.donation-card__icon--instagram { background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045); }
+.donation-card__icon--facebook { background: #1877f2; }
+
+.donation-card h3 {
+  margin: 8px 0 12px;
+  font-size: 23px;
+}
+
+.donation-card p {
+  flex-grow: 1;
+  margin-bottom: 24px;
+  color: #66727c;
+  line-height: 1.65;
+}
+
+.donation-copy-row--light {
+  width: 100%;
+  border-color: #dde3e7;
+  color: #273d4e;
+  background: #f5f7f9;
+}
+
+.donation-copy-row--light code {
+  font-size: 15px;
+  letter-spacing: 0;
+}
+
+.donation-card__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  align-self: flex-start;
+  font-weight: 700;
+}
+
+.donation-card__link i {
+  transition: transform .25s ease;
+}
+
+.donation-card__link:hover i {
+  transform: translate(3px, -3px);
+}
+
+@media (max-width: 767px) {
+  .donation-featured {
+    grid-template-columns: 1fr;
+    padding: 28px;
+  }
+
+  .donation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .donation-card {
+    padding: 26px;
+  }
+}
+
+@media (max-width: 480px) {
+  .donate-page__intro {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .donate-page__intro p {
+    font-size: 16px;
+  }
+
+  .donation-copy-row {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .donation-copy {
+    justify-content: center;
+    width: 100%;
+  }
+}
