@@ -1,4 +1,28 @@
 /* Mobile refinements kept separate from the compiled template stylesheet. */
+.page-title {
+  overflow: hidden;
+  background-color: #0b141b;
+  background-image:
+    radial-gradient(circle at 16% 22%, rgba(255, 74, 23, .28) 0, transparent 30%),
+    radial-gradient(circle at 84% 68%, rgba(91, 127, 151, .24) 0, transparent 32%),
+    linear-gradient(135deg, #081117 0%, #1d3443 52%, #0b151c 100%) !important;
+}
+
+.page-title::before {
+  background:
+    linear-gradient(115deg, rgba(255, 255, 255, .035) 0 1px, transparent 1px 14%),
+    linear-gradient(25deg, transparent 0 58%, rgba(255, 255, 255, .045) 58% 59%, transparent 59% 100%);
+}
+
+.header .sitename,
+.footer .sitename {
+  letter-spacing: -.02em;
+}
+
+.footer .sitename {
+  overflow-wrap: anywhere;
+}
+
 .donate-cta {
   padding: 56px 0;
   color: #fff;
@@ -87,7 +111,7 @@
   }
 
   .header .logo h1 {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .header .cta-btn {
@@ -101,6 +125,17 @@
   }
 }
 
+@media (max-width: 380px) {
+  .header .logo h1 {
+    font-size: 16px;
+  }
+
+  .header .cta-btn {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+}
+
 @media (min-width: 360px) and (max-width: 420px) {
   .dana-gallery-content .gallery {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -108,6 +143,16 @@
   }
 }
 
+
+.dana-gallery-content .gallery__item[hidden] {
+  display: none !important;
+}
+
+.photos-pagination__ellipsis {
+  padding-right: 4px !important;
+  padding-left: 4px !important;
+  border-color: transparent !important;
+}
 
 /* Donation page */
 .donate-page {
