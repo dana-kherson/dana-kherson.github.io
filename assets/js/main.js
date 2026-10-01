@@ -45,6 +45,9 @@
     document.querySelector('body').classList.toggle('mobile-nav-active');
     mobileNavToggleBtn.classList.toggle('bi-list');
     mobileNavToggleBtn.classList.toggle('bi-x');
+    const expanded = document.body.classList.contains('mobile-nav-active');
+    mobileNavToggleBtn.setAttribute('aria-expanded', String(expanded));
+    mobileNavToggleBtn.setAttribute('aria-label', expanded ? 'Close menu' : 'Open menu');
   }
   mobileNavToggleBtn.addEventListener('click', mobileNavToogle);
 

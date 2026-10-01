@@ -1,3 +1,38 @@
+// Select before creating image elements: only the chosen photos can request images.
+document.querySelectorAll('#photos .photo-grid[data-random-count]').forEach((grid) => {
+  const photos = [...(window.danaGalleryPhotos || [])];
+  const count = Math.min(Number(grid.dataset.randomCount) || 8, photos.length);
+  const fragment = document.createDocumentFragment();
+  const base = new URL(grid.dataset.galleryBase || './', document.baseURI);
+
+  // Partial Fisher–Yates: uniform sampling without replacement.
+  for (let i = 0; i < count; i += 1) {
+    const j = i + Math.floor(Math.random() * (photos.length - i));
+    [photos[i], photos[j]] = [photos[j], photos[i]];
+    const photo = photos[i];
+    const figure = document.createElement('figure');
+    figure.className = 'col-lg-4 col-md-6 portfolio-item gallery__item';
+    const link = document.createElement('a');
+    link.className = 'portfolio-content photo-preview d-block h-100';
+    link.href = new URL(photo.src, base).href;
+    link.setAttribute('aria-label', 'Open photo ' + (i + 1));
+    link.dataset.pswpWidth = photo.width;
+    link.dataset.pswpHeight = photo.height;
+    const preview = document.createElement('img');
+    preview.className = 'img-fluid';
+    preview.alt = photo.alt;
+    preview.loading = 'lazy';
+    preview.decoding = 'async';
+    preview.width = photo.width;
+    preview.height = photo.height;
+    preview.src = link.href;
+    link.appendChild(preview);
+    figure.appendChild(link);
+    fragment.appendChild(figure);
+  }
+  grid.insertBefore(fragment, grid.querySelector('[data-gallery-link]'));
+});
+
 document.querySelectorAll('#photos .photo-grid a.photo-preview').forEach((link) => {
   const [width, height] = (link.dataset.size || '').split('x');
   const preview = link.querySelector('img');
